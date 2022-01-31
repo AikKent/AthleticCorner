@@ -3,11 +3,11 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open('athletic-corner').then(function(cache) {
             return cache.addAll([
-                '/index.html',
-                '/stylesheet_changes.css',
-                '/manifest.json',
-                '/assets/icon1.png',
-                '/preferences.js'
+                './index.html',
+                './stylesheet_changes.css',
+                './manifest.json',
+                './assets/icon1.png',
+                './preferences.js'
             ]);
         })
     );
