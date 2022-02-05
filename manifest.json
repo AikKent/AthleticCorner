@@ -12,7 +12,6 @@
          "sizes":"512x512"
     }],
     "start_url": "/AthleticCorner",
-    "scope":"/AthleticCorner",
     "background_color": "white",
     "display": "standalone",
     "description": "An application to store and process track ratings"
